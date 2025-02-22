@@ -1,0 +1,77 @@
+body {
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89c8fcae;
+    /*you can change the image as you want or just delete this if you dont want an image*/
+    background-image: url('water2.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a{
+    margin-left: 47.5%;
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+}
+
+p::first-letter{
+    font-size: 200%;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #89c8fcae;
+    padding: 20px 0;
+}
+
+.tablinks {
+    background-color: #71b9f5;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.tablinks:hover {
+    background-color: #559ad2;
+    color: #000000;
+    transform: scale(1.2);
+}
+
+.tablinks:focus {
+    outline: none;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #89c8fcae;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    flood-opacity: 50%;
+}
+
+.tabcontent h2 {
+    margin-top: 0;
+}
+
+/* Show the active tab's content */
+.active {
+    display: block;
+}
